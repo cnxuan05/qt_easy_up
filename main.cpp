@@ -38,8 +38,9 @@ int main(int argc,char *argv[])
 
     QHBoxLayout layout;
     layout.addStretch(1);
-    layout.addWidget(&edit);
-    layout.addWidget(&button);
+    layout.addWidget(&edit,1);
+    layout.addSpacing(50);
+    layout.addWidget(&button,1);
     layout.addStretch(1);
     w.setLayout(&layout);
 
