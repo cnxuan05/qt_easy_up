@@ -1,4 +1,8 @@
 SOURCES += \
-    main.cpp
+    layout.cpp \
+    MyWidget.cpp
 
 QT+=widgets gui
+
+HEADERS += \
+    MyWidget.h
