@@ -1,4 +1,8 @@
+/*
 
+version.03
+
+*/
 #include <QApplication>
 
 #include <QWidget>
